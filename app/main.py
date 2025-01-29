@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get
 def index():
-    return {'Status' : 'Berhasil !'}
+    return {'Status' : 'Berhasil !!'}
 
 @app.post('/prediksi')
 def prediksi(data : dict):
